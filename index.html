@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gumballs🫧</title>
+  </head>
+  <style>
+    h1 {
+      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      font-weight: 100;
+      text-align: center;
+      font-size: 30px;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 17px;
+      list-style: none;
+    }
+
+    img {
+      display: block;
+      margin: 0 auto;
+      max-width: 60%;
+      border-radius: 10px;
+    }
+    p {
+      text-align: center;
+      line-height: 30px;
+      font-family: monospace;
+      text-align: center;
+    }
+    .neonText {
+      color: #fff;
+      text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff,
+        0 0 42px rgb(205, 207, 206), 0 0 82px #0fa, 0 0 92px rgb(203, 218, 213),
+        0 0 102px rgb(74, 83, 80), 0 0 151px rgb(193, 228, 216);
+      text-size-adjust: 30px;
+    }
+    button {
+      border-radius: 1%;
+      margin: 0 auto;
+      display: block;
+      background-color: #885df1;
+      border: 1px solid #885df1;
+      color: #fff;
+      font-size: 16px;
+      line-height: 22px;
+      padding: 16px 24px;
+      text-decoration: none;
+      transition: all 200ms ease;
+      box-shadow: inset;
+    }
+    button:hover {
+      color: #fff;
+      background: #f76b8a;
+      transition: ease-in-out;
+    }
+    .gummy {
+      text-align: center;
+      line-height: 30px;
+      font-family: monospace;
+      text-align: center;
+      margin: auto;
+      opacity: 40%;
+      font-weight: 100;
+    }
+    body {
+      width: 38%;
+      padding: 40px;
+      width: 38%;
+      text-align: center;
+
+      margin: auto;
+      background-color: #f7f3ff;
+    }
+    .shadow-box {
+      background: linear-gradient(
+        109.6deg,
+        rgb(253, 199, 141) 11.3%,
+        rgb(249, 143, 253) 100.2%
+      );
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+      padding: 30px;
+      border-radius: 8px;
+      width: 100%;
+    }
+  </style>
+  <body>
+    <div class="shadow-box">
+      <h1>Gumballs are <em class="neonText">ICONIC</em> and delicious</h1>
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/099/979/original/st_small_845x845-pad_1000x1000_f8f8f8.u1.jpg?1697025513"
+        alt="man blowing bubblegum"
+        target="_blank"
+      />
+      <h2>
+        A brief history on why gumballs are a
+        <em>🫧POP🫧</em>
+        Icon
+      </h2>
+      <br />
+      <hr />
+      <p>
+        <strong>Chewing gum</strong> has its origins in ancient times from
+        Mayans to Greeks who would chew the resin of certain trees for medicinal
+        purposes and maybe even for freshening breath. The
+        <strong>history</strong> of chewing gum continued as Native Americans
+        introduced it to the European settlers. In 1900 Frank Fleer coated
+        chewing gum with sugar, and in 1906 Blibber Blubber was invented, but
+        never made it to the market. Blibber Blubber was too sticky and
+        according to some resources it was also too difficult to remove the
+        burst bubble from one’s skin without vigorous scrubbing and
+        turpentine.Bubblegum has been popular since, especially among children,
+        thanks to its bright wrapper appeal, inventive shapes, and sugary
+        flavors, from original bubblegum to a yardstick of fruity bubblegum.
+        Bubblegum is not only a thing, it’s also a flavor, a color, and a music
+        genre. It’s also something librarians don’t want to see stuck between
+        book pages. you can learn more on this topic on
+        <a href="https://en.wikipedia.org/wiki/Gumball" target="_blank">
+          Wikipedia
+        </a>
+      </p>
+      <hr />
+      <br />
+      <button>Try some gumballs today!</button>
+      <br />
+      <br />
+    </div>
+    <script>
+      function order() {
+        let name = prompt("What is your name?");
+        let age = prompt("how old are you?");
+        let email = prompt("What is your email?");
+
+        alert(
+          "Thanks" +
+            name +
+            "! We'll be in touch soon with more details, until then enjoy our free samples and let us know if you enjoyed them💗"
+        );
+      }
+
+      let button = document.querySelector("button");
+      button.addEventListener("click", order);
+    </script>
+  </body>
+  <div class="gummy">Coded by Wongezwa August</div>
+</html>
